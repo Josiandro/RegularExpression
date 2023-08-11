@@ -3,16 +3,17 @@ Meta Caracteres:
 \d - Qualquer digito entre numérico 0 - 9 (equivalente ao grupo de caracteres [0-9])
 .  - Qualquer caracter char (letra) uma única vez
 *  - Zero ou mais caracteres
-+ -> O caracter anterior, uma ou mais vezes
++  - O caracter anterior, uma ou mais vezes
 {} - Definidor de quantidade de caracteres
     {3}    - Exatamente n vezes
     {3,}   - No mínimo n vezes
     {3,10} - No mínimo n vezes e no máximo n vezes
-\. -> Escapa o ponto para usa-lo como um ponto de verdade
-() -> Meta caracter de grupo (procura primeiro o que cai na expressão do grupo, depois avança para as outras)
-?  -> Indica que o carater anterior é opcional (zero ou uma vez)
-[] -> Define um conjunto de caracteres que pode aparecer nessa posição (dentro dos [] o ponto é realmente um ponto, não precisa escapar)
+\. - Escapa o ponto para usa-lo como um ponto de verdade
+() - Meta caracter de grupo (procura primeiro o que cai na expressão do grupo, depois avança para as outras)
+?  - Indica que o carater anterior é opcional (zero ou uma vez)
+[] - Define um conjunto de caracteres que pode aparecer nessa posição (dentro dos [] o ponto é realmente um ponto, não precisa escapar)
     [0-9]  - De 0 até 9
     [a-z]  - De a até z
     [A-Z]  - De A até Z
     [a-zç] - De a até z e também o ç (caracteres especiais precisam ser informados manualmente)
+\s - Atalho para identificar espaços, tab, etc. Usado com o + para pegar os espaços uma ou mais vezes
