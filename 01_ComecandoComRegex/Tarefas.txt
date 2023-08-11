@@ -1,0 +1,11 @@
+Encontrar um CPF no texto abaixo:
+"josiandro teste, 028.332.570.40, 10 de Março de 2021, (51)996363998,SCS Qd. 8 BL B-50,11,70333-900,Rio Grande"
+
+Opção 1:
+    \d\d\d\.\d\d\d\.\d\d\d-\d\d
+
+Opção 2:
+    \d{3}\.\d{3}\.\d{3}-\d{2}
+
+Opção 3:
+    ([0-9]{3})\.([0-9]{3})\.([0-9]{3})-([0-9]{2})
