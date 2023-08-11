@@ -1,7 +1,7 @@
 Meta Caracteres:
 
-\d -> Qualquer digito de 0 - 9
-.  -> Qualquer caracter char
+\d -> Qualquer digito de 0 - 9 (Equivalente ao [0-9])
+.  -> Qualquer caracter char uma única vez
 *  -> Zero ou mais caracteres
 {} -> Definir a quantidade específica de caracteres
 \. -> Escapa o ponto para usa-lo como um ponto de verdade
