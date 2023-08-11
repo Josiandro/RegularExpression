@@ -4,11 +4,14 @@ Meta Caracteres:
 .  -> Qualquer caracter char um única vez
 *  -> Zero ou mais caracteres
 {} -> Definir a quantidade específica de caracteres
+    {3} - Exatamente n vezes
+    {3,} - No mínimo n vezes
+    {3,10} - No mínimo n vezes, no máximo n vezes
 \. -> Escapa o ponto para usa-lo como um ponto de verdade
 () -> Meta caracter de grupo
-?  -> Indica que o carater anterior é opcional
+?  -> Indica que o carater anterior é opcional (zero ou uma vez)
 [] -> Define um conjunto de caracteres que pode aparecer nessa posição (dentro dos [] o ponto é realmente um ponto, não precisa escapar)
-
++ -> O caracter anterior, uma ou mais vezes
 
 ------------------------------------------------------------------
 
@@ -33,3 +36,9 @@ Opção 2:
 
 - Localizar números entre 1 - 3 e 6 - 9
     [1-36-9]
+
+Localizar a data por extenso
+josiandro teste, 028.332.570.40, 10 de Março de 2021, (51)996363998,SCS Qd. 8 BL B-50,11,70333-900,Rio Grande
+
+[1-3]?\d\s+de\s+[A-Z][a-zç]{3,8}\s+de\s+[12][\d]{3}
+
