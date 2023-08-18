@@ -84,3 +84,19 @@ Opção 2:
 Opção 3 (para o caso de uma palavra terminar com ROT):
     [A-Z]*ROT[A-Z]*
     [A-Z]* Procura um texto antes do ROT, caso a palavra não comece com ROT, o * é zero ou mais vezes
+
+--------------------------------------------------------------------------------------------------------------------
+Localizar o alvo ?classes+poderosas* apenas com um match
+
+Opção 1 (mais complexa):
+    \?[a-z]+\+[a-z]+\*
+
+Opção 2 (mais simples):
+    [a-z?*+]+
+
+--------------------------------------------------------------------------------------------------------------------
+Localizar uma senha que bata com as regras (limite de 10 caracteres, primeiro é letra, a partir do segundo por ter letras maíusuclas, minúsculas e números)
+
+Opção 1:
+    [a-zA-Z][a-zA-Z0-9]{0,9}
+
