@@ -1,1 +1,4 @@
-ECHO est� ativado.
+Procurar apenas o texto aa dentro do texto aa aaa aaaa aa aaaaa aa aaaaaa
+
+Opção 1:
+    \baa\b

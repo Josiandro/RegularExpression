@@ -24,6 +24,11 @@ Classes de char - []
     [A-Z]  - De A até Z
     [a-zç] - De a até z e também o ç (caracteres especiais precisam ser informados manualmente)
 
+Âncoras
+
+\b - Word boundary [A-Za-z0-9_] ou \w encontra a posição exata da palavra passada entre os \b
+
+
 --------------------------------------------------------------------------------------------------------------------
 ** Para tornar a Regex mais simples de ler, podemos quebrar em varáves (se estiver sendo usada em uma linguagem de programação)
 
