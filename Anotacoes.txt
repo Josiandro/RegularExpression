@@ -10,6 +10,7 @@ Quantifier
 .  - Qualquer caracter char (letra) uma única vez
 \. - Escapa o ponto para usa-lo como um ponto de verdade
 () - Meta caracter de grupo (procura primeiro o que cai na expressão do grupo, depois avança para as outras)
+    (?:de\s+) o ?: dentro do gupo, signfica que ele não deve ser retornado como resultado da regex (non-capturing groups)
 
 Classes de char - []
 
