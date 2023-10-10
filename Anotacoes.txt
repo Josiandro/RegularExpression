@@ -35,7 +35,7 @@ $  - Encontra caracteres/palavras no final da linha
     \.html$
 
 --------------------------------------------------------------------------------------------------------------------
-** Para tornar a Regex mais simples de ler, podemos quebrar em varáves (se estiver sendo usada em uma linguagem de programação)
+** Para tornar a Regex mais simples de ler, podemos quebrar em variáves (se estiver sendo usada em uma linguagem de programação)
 
 Regex para pegar a data por extenso:
     [0123]?\d\s+de\s+[A-Z][a-zç]{1,8}\s+de\s+[12]\d{3}
